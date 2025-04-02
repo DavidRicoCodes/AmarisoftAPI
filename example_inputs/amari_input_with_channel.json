@@ -1,0 +1,48 @@
+{
+    "commands": [
+        {
+            "command": "iperf3 -c 10.3.198.3 -u -t 100 -b 20M -p 5201",
+            "duration": 100
+        },
+        {
+            "command": "iperf3 -c 10.3.198.3 -u -t 100 -b 10M -p 5202",
+            "duration": 100
+        }
+    ],
+    "radio_config": {
+        "bb_name": "GNB_5TONIC_FLAMINGO_5G",
+        "bb_id": 30009,
+        "cell_name": "FLAMINGO_5G_DOT-1",
+        "cell_local_id": 800,
+        "pci": 317,
+        "rach_root_seq": 48,
+        "nCI": 491668256,
+        "tac": 53005,
+        "band": "B78",
+        "arfcn": 636666,
+        "ssb_nr_arfcn": 634080,
+        "plmn": 21405,
+        "bandwidth": 100,
+        "subcarrier_spacing": 30,
+        "tx_gain": 90,
+        "rx_gain": 60
+    },
+    "channel_emulation":true,
+    "channel":{
+        "max_distance": 100,
+        "min_distance": 10,
+        "noise_spd": -10,
+        "position": [
+          10,
+          10
+        ],
+        "direction": 10,
+        "speed": 10,
+        "type": "tdla",
+        "freq_doppler": 10,
+        "mimo_correlation": "medium",
+        "A": 10.0,
+        "B": 10.0,
+        "delay_spread": 10
+    }
+}

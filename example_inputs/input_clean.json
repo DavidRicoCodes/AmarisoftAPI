@@ -1,0 +1,17 @@
+{
+    "commands": [
+        {"command": "iperf3 -c 10.3.3.41 -u -t 25 -b 10M", "duration": 30},
+        {"command": "iperf3 -c 10.3.3.42 -u -t 25 -b 20M", "duration": 30},
+        {"command": "iperf3 -c 10.3.3.43 -u -t 25 -b 30M", "duration": 30}
+    ],
+    "radio_config": {
+        "bandwidth": 100,
+        "tx_gain": 90.0,
+        "rx_gain": 60.0,
+        "band": "B78",
+        "arfcn": 636666,
+        "ssb_nr_arfcn": 634080,
+        "subcarrier_spacing": 30,
+        "plmn": 21405
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "commands": [
+        {"command": "iperf3 -c 10.3.3.41 -u -t 25 -b 10M", "duration": 10},
+        {"command": "iperf3 -c 10.3.3.42 -u -t 25 -b 20M", "duration": 30},
+        {"command": "iperf3 -c 10.3.3.43 -u -t 25 -b 30M", "duration": 50},
+        {"command": "iperf3 -c 10.3.3.44 -u -t 25 -b 40M", "duration": 30},
+        {"command": "iperf3 -c 10.3.3.45 -u -t 25 -b 50M", "duration": 20},
+        {"command": "iperf3 -c 10.3.3.46 -u -t 25 -b 10M", "duration": 30},
+        {"command": "iperf3 -c 10.3.3.47 -u -t 25 -b 20M", "duration": 40}
+    ],
+    "radio_config": {
+        "bandwidth": 100,
+        "tx_gain": 90.0,
+        "rx_gain": 60.0,
+        "cell_name": "FLAMINGO_5G_DOT-1",
+        "plmn": 21405
+    }
+}

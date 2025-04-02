@@ -1,0 +1,13 @@
+service lte stop
+cd lteue-linux-2024-06-14/
+./lteue config/erc/configuration.cfg
+
+web access: 
+http://127.0.0.1/lte/
+
+remote access:
+
+ssh root@10.5.69.69 
+pawd: toor
+
+
