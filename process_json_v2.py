@@ -204,7 +204,8 @@ for idx, command_entry in enumerate(commands, start=1):
         "channel_sim": data.get("channel_sim", False),
         "op": "0123456789ABCDEF0123456789ABCDEF",
         "K": "0123456789ABCDEF0123456789ABCDEF",
-        "apn": "internet",
+        "apn": "flamingo-embb",
+        "attach_pdn_type": "ipv4",
         "spec_tolerance": False,
         "as_release": 15,
         "ldpc_max_its": 6,
@@ -260,7 +261,9 @@ for idx, command_entry in enumerate(commands, start=1):
                 "start_time": 10,
                 "end_time": duration + 10,
                 "prog": "ext_app.sh",
-                "args": json.loads(f'["iperf3", {args_str}, "-V", "--debug"]')
+                "args": json.loads(f'["iperf3", {args_str}]'),
+                "dump_stdout": True,
+                "dump_stderr": True
             }
         ]
     ue_entry["sim_events"] = sim_events

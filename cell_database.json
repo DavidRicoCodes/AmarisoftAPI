@@ -12,6 +12,12 @@
                 "arfcn": 636666,
                 "ssb_nr_arfcn": 634752,
                 "subcarrier_spacing": 30
+            },
+            "40": {
+                "band": "78",
+                "arfcn": 636666,
+                "ssb_nr_arfcn": 634080,
+                "subcarrier_spacing": 30
             }
         }
     }

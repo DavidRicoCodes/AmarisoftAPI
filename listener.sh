@@ -99,12 +99,12 @@ sleep $((DURACION_MAXIMA + 40))
 
 # Forzar cierre del proceso si sigue activo
 if ps -p $LTEUE_PID > /dev/null; then
-    log "El proceso sigue activo. Forzando cierre..."
+    #log "El proceso sigue activo. Forzando cierre..."
     kill -SIGTERM $LTEUE_PID
     sleep 5
     # Si no se cierra, matar
     if ps -p $LTEUE_PID > /dev/null; then
-        log "El proceso no respondió a SIGTERM. Enviando SIGKILL..."
+        #log "El proceso no respondió a SIGTERM. Enviando SIGKILL..."
         kill -SIGKILL $LTEUE_PID
     fi
 fi
@@ -112,11 +112,11 @@ fi
 sleep 2
 log "Extrayendo datos."
 log "python3 data_extractor_v3.py $OUTPUT_DIR_LOG $REQUEST_JSON_FILE"
-python3 /root/Desktop/data_extractor_v3.py $OUTPUT_DIR_LOG $REQUEST_JSON_FILE >> "$LOG_FILE" 2>&1 &
+python3 /root/Desktop/data_extractor_v3.py $OUTPUT_DIR_LOG $REQUEST_JSON_FILE >> "$LOG_FILE" 2>&1 
 log "Extracción de datos finalizada."
 
 # Limpia el archivo temporal ya que el script de Python lo procesó correctamente
-sleep 2
+
 #rm -f "$REQUEST_JSON_FILE"
 
 
