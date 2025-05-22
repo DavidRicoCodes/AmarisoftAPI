@@ -1,0 +1,39 @@
+#!/usr/bin/expect -f
+# -*- mode: tcl -*-
+# Expect script to launch Amarisoft LteUE inside a pty, send 't', and kill after timeout
+
+# No timeout for expect commands
+set timeout -1
+
+# Arguments: 1) config path, 2) expect log file, 3) duration (s), 4) margin (s)
+set cfg_path   [lindex $argv 0]
+set logfile    [lindex $argv 1]
+set dur        [lindex $argv 2]
+set margin     [lindex $argv 3]
+
+# Redirect all expect output to logfile
+log_file -a $logfile
+
+# Spawn Amarisoft LteUE inside 'script' to keep the pty alive
+spawn /usr/bin/script -q -c "/root/lteue-linux-2024-06-14/lteue $cfg_path" /dev/null
+set wrapper_pid [exp_pid]
+
+# Wait for the "(ue) Cell N: SIB found" line to know when to send 't'
+expect -re {\(ue\) Cell [0-9]+: SIB found}
+
+# Send a single 't' followed by Enter
+send "t\r"
+
+# Schedule termination after (duration + margin) seconds
+after [expr {($dur + $margin) * 1000}] {
+    # Print a literal [Expect] without command substitution
+    puts {[Expect] Timeout reached; terminating lteue and wrapper}
+
+    # Kill all lteue processes matching the config path
+    exec pkill -TERM -f "/root/lteue-linux-2024-06-14/lteue $cfg_path"
+    # Kill the script wrapper itself
+    exec kill -SIGTERM $wrapper_pid
+}
+
+# Capture all output until EOF (when the wrapper and lteue exit)
+expect eof

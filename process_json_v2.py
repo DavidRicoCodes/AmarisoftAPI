@@ -3,7 +3,7 @@ import sys
 import json
 import os
 from datetime import datetime
-import random
+import random, math
 
 # -------------- Cell Database Setup --------------
 cell_database_path = "cell_database.json"
@@ -138,9 +138,11 @@ cfg_content = f"""{{
 #define CELL_BANDWIDTH {bandwidth}
 #define CHANNEL_SIM {chan}
 
-  log_options: "all.level=debug,all.max_size=1,ip.max_size=500,ip.payload=true",
+  log_options: "all.level=debug,all.max_size=1,ip.max_size=50,ip.payload=true",
   log_filename: "/root/Desktop/OUTPUT/ue0.log",
   com_addr: "[::]:9002",
+  cli_enabled: true,
+  cli_addr: "[::]:9002",
 
   rf_driver: {{
     name: "sdr",
@@ -163,7 +165,7 @@ cfg_content = f"""{{
       ssb_nr_arfcn: {ssb_nr_arfcn},
       subcarrier_spacing: {subcarrier_spacing},
       n_antenna_dl: N_ANTENNA_DL,
-      n_antenna_ul: 1,
+      n_antenna_ul: 2,
       rx_to_tx_latency: 2,
 #if CHANNEL_SIM == 1
     position: [0, 0],
@@ -227,12 +229,26 @@ for idx, command_entry in enumerate(commands, start=1):
         channel_obj["A"] = channel_obj.get("A", 0)
         channel_obj["B"] = channel_obj.get("B", 0)
         ue_entry["channel"] = channel_obj
+        
+        min_d = cp.get("min_distance", 0)
+        max_d = cp.get("max_distance", 0)
+
+        # Elegimos un radio uniformemente en [min_d, max_d]
+        r = random.uniform(min_d, max_d)
+        # Y un ángulo en [0, 2π)
+        θ = random.uniform(0, 2 * math.pi)
+
+        x = round(r * math.cos(θ), 6)
+        y = round(r * math.sin(θ), 6)
+
+        ue_entry["position"] = [ x, y ] 
         # Generate random values for position and direction as an example
-        ue_entry["position"] = [cp.get("min_distance", 0),0
-            #round(random.uniform(1000, 15000), 6),
-            #round(random.uniform(1000, 15000), 6)
-        ]
+        #ue_entry["position"] = [#cp.get("min_distance", 0),0
+        #    round(random.uniform(cp.get("min_distance", 0), cp.get("max_distance", 0)), 6),
+        #    round(random.uniform(cp.get("min_distance", 0), cp.get("max_distance", 0)), 6)
+        #]
         ue_entry["direction"] = round(random.uniform(0, 360), 6)
+        #ue_entry["direction"] = round(360, 6)
     
     # Generate sim_events based on the command
     command = command_entry["command"]
@@ -258,7 +274,7 @@ for idx, command_entry in enumerate(commands, start=1):
             {"start_time": 5, "event": "power_on"},
             {
                 "event": "ext_app",
-                "start_time": 10,
+                "start_time": 10+(idx*2),
                 "end_time": duration + 10,
                 "prog": "ext_app.sh",
                 "args": json.loads(f'["iperf3", {args_str}]'),
