@@ -32,6 +32,35 @@ except Exception as e:
     print(f"Error loading JSON file: {e}")
     sys.exit(1)
 
+#------------- Sacamos el escenario y sus parametros -----------------
+channel_params = data.get("channel_params", {})
+scenario_type = channel_params.get("channel", {}).get("type", None)
+
+if scenario_type =="tdla":
+    emeisv = 1553750000000101
+elif scenario_type =="tdlb":
+    emeisv = 8239750000000101
+elif scenario_type =="tdlc":
+    emeisv = 2306350000000101
+elif scenario_type =="tdld":
+    emeisv = 3974220000000101
+elif scenario_type =="tdlc300":
+    emeisv = 8925780000000101
+elif scenario_type =="tdlb100":
+    emeisv = 28570540000000101
+elif scenario_type =="tdla30":
+    emeisv = 2349710000000101
+elif scenario_type =="awgn":
+    emeisv = 1247310000000101
+elif scenario_type =="epa":
+    emeisv = 1698770000000101
+elif scenario_type =="eva":
+    emeisv = 4551550000000101
+elif scenario_type =="mbsfn":
+    emeisv = 4123280000000101
+elif scenario_type =="etu":
+    emeisv = 3777790000000101
+
 
 # -------------- Create Timestamped Output Directory --------------
 base_output_dir = "/root/lteue-linux-2024-06-14/config/erc/generated/"
@@ -192,94 +221,160 @@ except Exception as e:
     sys.exit(1)
 
 # -------------- Generate users-scenario.cfg --------------
-ue_list = []
-for idx, command_entry in enumerate(commands, start=1):
-    ue_id = idx
-    imsi = 214050000002000 + ue_id
-    ue_entry = {
-        "ue_id": ue_id,
-        "imsi": str(imsi),
-        "imeisv": "1553750000000101",
-        "sim_algo": "milenage",
-        "channel_sim": data.get("channel_sim", False),
-        "op": "0123456789ABCDEF0123456789ABCDEF",
-        "K": "0123456789ABCDEF0123456789ABCDEF",
-        "apn": "flamingo-embb",
-        "attach_pdn_type": "ipv4",
-        "spec_tolerance": False,
-        "as_release": 15,
-        "ldpc_max_its": 6,
-        "ue_category": "nr",
-        "cell_index": 0,
-        "rrc_initial_selection": False,
-        "tun_setup_script": "ue-ifup",
-        "preferred_plmn_list": [str(plmn)]
-    }
 
-    # If channel simulation is enabled, add additional channel parameters
-    if data.get("channel_sim", False):
-        cp = data.get("channel_params", {})
-        ue_entry["max_distance"] = cp.get("max_distance", 0)    # Example scaling
-        ue_entry["min_distance"] = cp.get("min_distance", 0)      # Example scaling
-        ue_entry["noise_spd"] = cp.get("noise_spd", 0)
-        ue_entry["speed"] = cp.get("speed", 0)                # Example scaling
-        channel_obj = cp.get("channel", {})
-        channel_obj["A"] = channel_obj.get("A", 0)
-        channel_obj["B"] = channel_obj.get("B", 0)
-        ue_entry["channel"] = channel_obj
-        # Generate random values for position and direction as an example
-        ue_entry["position"] = [cp.get("min_distance", 0),0
-            #round(random.uniform(1000, 15000), 6),
-            #round(random.uniform(1000, 15000), 6)
-        ]
-        ue_entry["direction"] = round(random.uniform(0, 360), 6)
-    
-    # Generate sim_events based on the command
-    command = command_entry["command"]
-    duration = command_entry["duration"]
-    command_list = command.split()
-    if command_list[0] == "ping":
-        sim_events = [
-            {"start_time": 5, "event": "power_on"},
-            {
-                "start_time": 10,
-                "end_time": duration + 10,
-                "dst_addr": command_list[1],
-                "payload_len": 1000,
-                "delay": 1,
-                "event": command_list[0]
-            }
-        ]
-    elif command_list[0] == "iperf3":
-        # Enclose each argument (except the command) in quotes
-        iperf_args = [f'"{arg}"' for arg in command_list[1:]]
-        args_str = ", ".join(iperf_args)
-        sim_events = [
-            {"start_time": 5, "event": "power_on"},
-            {
-                "event": "ext_app",
-                "start_time": 10,
-                "end_time": duration + 10,
-                "prog": "ext_app.sh",
-                "args": json.loads(f'["iperf3", {args_str}]'),
-                "dump_stdout": True,
-                "dump_stderr": True
-            }
-        ]
-    ue_entry["sim_events"] = sim_events
-    ue_list.append(ue_entry)
+if scenario_type:
+    ue_list = []
+    for idx, command_entry in enumerate(commands, start=1):
+        ue_id = idx
+        imsi = 214050000002000 + ue_id
+        ue_entry = {
+            "ue_id": ue_id,
+            "imsi": str(imsi),
+            "imeisv": emeisv,
+            "sim_algo": "milenage",
+            "channel_sim": data.get("channel_sim", False),
+            "op": "0123456789ABCDEF0123456789ABCDEF",
+            "K": "0123456789ABCDEF0123456789ABCDEF",
+            "apn": "flamingo-embb",
+            "attach_pdn_type": "ipv4",
+            "spec_tolerance": False,
+            "as_release": 15,
+            "ldpc_max_its": 6,
+            "ue_category": "nr",
+            "cell_index": 0,
+            "rrc_initial_selection": False,
+            "tun_setup_script": "ue-ifup",
+            "preferred_plmn_list": [str(plmn)]
+        }
 
-ue_list_content = json.dumps({"ue_list": ue_list}, indent=2)
-users_scenario_content = ue_list_content
+        # If channel simulation is enabled, add additional channel parameters
+        if data.get("channel_sim", False):
+            cp = data.get("channel_params", {})
+            ue_entry["max_distance"] = cp.get("max_distance", 0)    # Example scaling
+            ue_entry["min_distance"] = cp.get("min_distance", 0)      # Example scaling
+            ue_entry["noise_spd"] = cp.get("noise_spd", 0)
+            ue_entry["speed"] = cp.get("speed", 0)                # Example scaling
+            channel_obj = cp.get("channel", {})
+            channel_obj["A"] = channel_obj.get("A", 0)
+            channel_obj["B"] = channel_obj.get("B", 0)
+            ue_entry["channel"] = channel_obj
+            # Generate random values for position and direction as an example
+            ue_entry["position"] = [cp.get("min_distance", 0),0
+                #round(random.uniform(1000, 15000), 6),
+                #round(random.uniform(1000, 15000), 6)
+            ]
+            ue_entry["direction"] = round(random.uniform(0, 360), 6)
+        
+        # Generate sim_events based on the command
+        command = command_entry["command"]
+        duration = command_entry["duration"]
+        command_list = command.split()
+        if command_list[0] == "ping":
+            sim_events = [
+                {"start_time": 5, "event": "power_on"},
+                {
+                    "start_time": 10,
+                    "end_time": duration + 10,
+                    "dst_addr": command_list[1],
+                    "payload_len": 1000,
+                    "delay": 1,
+                    "event": command_list[0]
+                }
+            ]
+        elif command_list[0] == "iperf3":
+            # Enclose each argument (except the command) in quotes
+            iperf_args = [f'"{arg}"' for arg in command_list[1:]]
+            args_str = ", ".join(iperf_args)
+            sim_events = [
+                {"start_time": 5, "event": "power_on"},
+                {
+                    "event": "ext_app",
+                    "start_time": 10,
+                    "end_time": duration + 10,
+                    "prog": "ext_app.sh",
+                    "args": json.loads(f'["iperf3", {args_str}]'),
+                    "dump_stdout": True,
+                    "dump_stderr": True
+                }
+            ]
+        ue_entry["sim_events"] = sim_events
+        ue_list.append(ue_entry)
 
-output_file_2 = os.path.join(output_dir, "users-scenario.cfg")
-try:
-    with open(output_file_2, 'w') as users_file:
-        users_file.write(users_scenario_content)
-    print(f"File '{output_file_2}' generated successfully.")
-except Exception as e:
-    print(f"Error writing file '{output_file_2}': {e}")
-    sys.exit(1)
+    ue_list_content = json.dumps({"ue_list": ue_list}, indent=2)
+    users_scenario_content = ue_list_content
+
+    output_file_2 = os.path.join(output_dir, "users-scenario.cfg")
+    try:
+        with open(output_file_2, 'w') as users_file:
+            users_file.write(users_scenario_content)
+        print(f"File '{output_file_2}' generated successfully.")
+    except Exception as e:
+        print(f"Error writing file '{output_file_2}': {e}")
+        sys.exit(1)
+
+if escenario_type == " tdlam" or scenario_type == "tdlbm": or scenario_type == "tdlcm"or scenario_type == "tdldm":
+    ue_db = []
+    for idx, command_entry in enumerate(commands, start=1):
+        ue_id = idx
+        imsi = 214050000002000 + ue_id
+        ue_entry = {
+            "ue_id": ue_id,
+            "imsi": str(imsi),
+            "K": "0123456789ABCDEF0123456789ABCDEF",
+            "amf": 36865,
+            "sqn": "000000000000",
+            "sim_algo": "milenage",
+            "op": "0123456789ABCDEF0123456789ABCDEF"
+        }
+            
+        # Generate sim_events based on the command
+        command = command_entry["command"]
+        duration = command_entry["duration"]
+        command_list = command.split()
+        if command_list[0] == "ping":
+            sim_events = [
+                {"start_time": 5, "event": "power_on"},
+                {
+                    "start_time": 10,
+                    "end_time": duration + 10,
+                    "dst_addr": command_list[1],
+                    "payload_len": 1000,
+                    "delay": 1,
+                    "event": command_list[0]
+                }
+            ]
+        elif command_list[0] == "iperf3":
+            # Enclose each argument (except the command) in quotes
+            iperf_args = [f'"{arg}"' for arg in command_list[1:]]
+            args_str = ", ".join(iperf_args)
+            sim_events = [
+                {"start_time": 5, "event": "power_on"},
+                {
+                    "event": "ext_app",
+                    "start_time": 10,
+                    "end_time": duration + 10,
+                    "prog": "ext_app.sh",
+                    "args": json.loads(f'["iperf3", {args_str}]'),
+                    "dump_stdout": True,
+                    "dump_stderr": True
+                }
+            ]
+        ue_entry["sim_events"] = sim_events
+        ue_db.append(ue_entry)
+
+    ue_db_content = json.dumps({"ue_db": ue_db}, indent=2)
+    users_scenario_content = ue_db_content
+
+    output_file_2 = os.path.join(output_dir, "users-scenario.cfg")
+    try:
+        with open(output_file_2, 'w') as users_file:
+            users_file.write(users_scenario_content)
+        print(f"File '{output_file_2}' generated successfully.")
+    except Exception as e:
+        print(f"Error writing file '{output_file_2}': {e}")
+        sys.exit(1)
+
+
 
 # -------------- Generate ext_app.sh --------------
 ext_app_content = """#!/bin/bash
