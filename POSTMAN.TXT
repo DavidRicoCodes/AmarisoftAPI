@@ -1,0 +1,79 @@
+{
+    "traffic_generator": true,
+    "traffic_definitions": [
+        {
+            "protocol_stack": "UDP",
+            "bandwidth": "10M",
+            "traffic_port": 5201,
+            "traffic_direction": "uplink",
+            "parallel": 1,
+            "paths": [
+                {
+                    "server": {
+                        "name": "local-app-server"
+                    }
+                }
+            ]
+        },
+         {
+            "protocol_stack": "UDP",
+            "bandwidth": "10M",
+            "traffic_port": 5202,
+            "traffic_direction": "uplink",
+            "parallel": 1,
+            "paths": [
+                {
+                    "server": {
+                        "name": "local-app-server"
+                    }
+                }
+            ]
+        },
+         {
+            "protocol_stack": "UDP",
+            "bandwidth": "10M",
+            "traffic_port": 5203,
+            "traffic_direction": "uplink",
+            "parallel": 1,
+            "paths": [
+                {
+                    "server": {
+                        "name": "local-app-server"
+                    }
+                }
+            ]
+        },
+         {
+            "protocol_stack": "UDP",
+            "bandwidth": "10M",
+            "traffic_port": 5204,
+            "traffic_direction": "uplink",
+            "parallel": 1,
+            "paths": [
+                {
+                    "server": {
+                        "name": "local-app-server"
+                    }
+                }
+            ]
+        },
+         {
+            "protocol_stack": "UDP",
+            "bandwidth": "10M",
+            "traffic_port": 5205,
+            "traffic_direction": "uplink",
+            "parallel": 1,
+            "paths": [
+                {
+                    "server": {
+                        "name": "local-app-server"
+                    }
+                }
+            ]
+        }
+    ],
+    "cpe": "AMARISOFT",
+    "start_time": "now",
+    "duration": 60
+}
+ 

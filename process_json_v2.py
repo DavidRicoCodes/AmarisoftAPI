@@ -271,7 +271,9 @@ for idx, command_entry in enumerate(commands, start=1):
         iperf_args = [f'"{arg}"' for arg in command_list[1:]]
         args_str = ", ".join(iperf_args)
         sim_events = [
-            {"start_time": 5, "event": "power_on"},
+            {"start_time": 5
+             #+(idx*2)
+             , "event": "power_on"},
             {
                 "event": "ext_app",
                 "start_time": 10+(idx*2),
