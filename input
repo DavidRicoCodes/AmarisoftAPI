@@ -8,3 +8,47 @@
 
 
 ./listenerv2.sh '{"commands":[{"command":"iperf3 -J -c 10.3.202.37 -u -t 60 -b 10M -p 5201 ","duration":60},{"command":"iperf3 -J -c 10.3.202.37 -u -t 60 -b 10M -p 5202 ","duration":60},{"command":"iperf3 -J -c 10.3.202.37 -u -t 60 -b 10M -p 5203 ","duration":60}],"radio_config":{"bb_name":"GNB_5TONIC_FLAMINGO_5G","bb_id":30009,"cell_name":"FLAMINGO_5G_DOT-1","cell_local_id":800,"pci":317,"rach_root_seq":48,"nCI":491668256,"tac":53005,"band":"B78","arfcn":636666,"ssb_nr_arfcn":634080,"plmn":21405,"bandwidth":100,"subcarrier_spacing":30,"tx_gain":90,"rx_gain":60},"channel_sim":true,"channel_params":{"max_distance":100,"min_distance":10,"noise_spd":-174,"speed":10.99,"channel":{"type":"tdla","freq_doppler":10,"mimo_correlation":"medium","A":10.9,"B":10.9,"delay_spread":20}},"id":"w_prueba_david"}'
+
+./listener.sh '{"commands":[{"command":"iperf3 -J -c 10.3.202.37 -u -t 60 -b 10M -p 5201 ","duration":60},{"command":"iperf3 -J -c 10.3.202.37 -u -t 60 -b 10M -p 5202 ","duration":60},{"command":"iperf3 -J -c 10.3.202.37 -u -t 60 -b 10M -p 5203 ","duration":60}],"radio_config":{"bb_name":"GNB_5TONIC_FLAMINGO_5G","bb_id":30009,"cell_name":"FLAMINGO_5G_DOT-1","cell_local_id":800,"pci":317,"rach_root_seq":48,"nCI":491668256,"tac":53005,"band":"B78","arfcn":636666,"ssb_nr_arfcn":634080,"plmn":21405,"bandwidth":100,"subcarrier_spacing":30,"tx_gain":90,"rx_gain":60},"channel_sim":true,"channel_params":{"max_distance":100,"min_distance":10,"noise_spd":-174,"speed":10.99,"channel":{"type":"tdla","freq_doppler":10,"mimo_correlation":"medium","A":10.9,"B":10.9,"delay_spread":20}},"id":"w_prueba_david"}'
+
+
+./listener.sh '{"commands":
+[{"command":"iperf3 -J -c 10.3.7.11 -u -t 60 -b 10M -p 1029","duration":300}],
+"radio_config":{"bb_name":"GNB_5TONIC_FLAMINGO_5G","bb_id":30009,
+"cell_name":"FLAMINGO_5G_DOT-1","cell_local_id":800,"pci":317,
+"rach_root_seq":48,"nCI":491668256,"tac":53005,"band":"B78",
+"arfcn":636666,"ssb_nr_arfcn":634080,"plmn":21405,"bandwidth":100,
+"subcarrier_spacing":30,"tx_gain":90,"rx_gain":60},"id":"PRUEBAOSCAR1"}'
+
+
+./listener.sh '{"commands":
+[{"command":"iperf3 -J -s -p 5201","duration":60}],
+"radio_config":{"bb_name":"GNB_5TONIC_FLAMINGO_5G","bb_id":30009,
+"cell_name":"FLAMINGO_5G_DOT-1","cell_local_id":800,"pci":317,
+"rach_root_seq":48,"nCI":491668256,"tac":53005,"band":"B78","arfcn":636666,
+"ssb_nr_arfcn":634080,"plmn":21405,"bandwidth":100,"subcarrier_spacing":30,
+"tx_gain":90,"rx_gain":60},
+
+"channel_sim":true,
+"channel_params":
+{"max_distance":100,"min_distance":10,"noise_spd":-174,
+"speed":10.99,"channel":{"type":"tdla","freq_doppler":10,
+"mimo_correlation":"medium","A":10.9,"B":10.9,"delay_spread":20}},"id":"PRUEBAOSCAR2"}'
+
+
+
+./listener.sh '{"commands":
+[{"command":"iperf3 -J -c 10.3.202.37 -u -t 60 -b 10M -p 5201 ","duration":60},
+{"command":"iperf3 -J -c 10.3.202.37 -u -t 60 -b 10M -p 5202 ","duration":60},
+{"command":"iperf3 -J -c 10.3.202.37 -u -t 60 -b 10M -p 5203 ","duration":60}],
+"radio_config":{"bb_name":"GNB_5TONIC_FLAMINGO_5G","bb_id":30009,"cell_name":"FLAMINGO_5G_DOT-1",
+"cell_local_id":800,"pci":317,"rach_root_seq":48,"nCI":491668256,"tac":53005,"band":"B78",
+"arfcn":636666,"ssb_nr_arfcn":634080,"plmn":21405,"bandwidth":100,"subcarrier_spacing":30,
+"tx_gain":90,"rx_gain":60},
+
+"channel_sim":true,
+"channel_params":
+{"max_distance":100,"min_distance":10,
+"noise_spd":-174,"speed":10.99,"channel":
+{"type":"tdlc300","freq_doppler":10,"mimo_correlation":"medium",
+"A":10.9,"B":10.9}},"id":"PRUEBAOSCAR4"}'
