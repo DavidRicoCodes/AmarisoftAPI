@@ -3,7 +3,7 @@
 # --------------------------------------------------
 # Configuración inicial
 # --------------------------------------------------
-BASE_OUTPUT_DIR="/root/Desktop/OUTPUT"
+BASE_OUTPUT_DIR="/root/Desktop_Oscar/OUTPUT"
 
 if [ -z "$1" ]; then
     echo "Error: Uso: $0 '<json_string>'"
@@ -37,7 +37,7 @@ cat "$REQUEST_JSON_FILE" | tee -a "$LOG_FILE"
 # Procesar JSON con Python
 # --------------------------------------------------
 log "Ejecutando process_json_v2.py..."
-python3 /root/Desktop/process_json_v2.py "$REQUEST_JSON_FILE" >> "$LOG_FILE" 2>&1
+python3 /root/Desktop_Oscar/process_json_v2.py "$REQUEST_JSON_FILE" >> "$LOG_FILE" 2>&1
 if [ $? -ne 0 ]; then
     log "Error: process_json_v2.py falló."
     exit 1
