@@ -201,7 +201,7 @@ for idx, command_entry in enumerate(commands, start=1):
     ue_entry = {
         "ue_id": ue_id,
         "imsi": str(imsi),
-        "imeisv": "1553750000000101",
+        "imeisv": data.get("imeisv", "0000000000000000"),
         "sim_algo": "milenage",
         "channel_sim": data.get("channel_sim", False),
         "op": "0123456789ABCDEF0123456789ABCDEF",
@@ -226,8 +226,12 @@ for idx, command_entry in enumerate(commands, start=1):
         ue_entry["noise_spd"] = cp.get("noise_spd", 0)
         ue_entry["speed"] = cp.get("speed", 0)                # Example scaling
         channel_obj = cp.get("channel", {})
+        channel_obj["type"] = channel_obj.get("type", 0)
+        channel_obj["freq_doppler"] = channel_obj.get("freq_doppler", 0)
+        channel_obj["mimo_correlation"] = channel_obj.get("mimo_correlation", None)
         channel_obj["A"] = channel_obj.get("A", 0)
         channel_obj["B"] = channel_obj.get("B", 0)
+        channel_obj["delay_spread"] = channel_obj.get("delay_spread", 0)
         ue_entry["channel"] = channel_obj
         
         min_d = cp.get("min_distance", 0)
