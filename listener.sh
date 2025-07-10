@@ -87,6 +87,13 @@ log "Trace completo y kill registrado en $EXPECT_LOG"
 
 JSON_LOG="$OUTPUT_DIR_LOG/json.log"
 TRACE_LOG="$OUTPUT_DIR_LOG/traces.log"
+
+log "Copiando source Amari log"
+DEST_DIR="/mnt/qnap/AmariDT/OUTPUT/$ID"
+mkdir -p $DEST_DIR
+rsync -ah --progress $BASE_OUTPUT_DIR/ue0.log $DEST_DIR/ue0.log  >> "$LOG_FILE" 2>&1
+log "Copia finalizada."
+
 log "Ejecutando parser.py..."
 python3 /root/Desktop/parserv2.py $EXPECT_LOG $TRACE_LOG $JSON_LOG >> "$LOG_FILE" 2>&1
 log "Parseo finalizado."
@@ -101,6 +108,10 @@ log "Limpieza finalizado."
 log "Ejecutando data_extractor_v3.py..."
 python3 /root/Desktop/data_extractor_v3.py "$OUTPUT_DIR_LOG" "$REQUEST_JSON_FILE" >> "$LOG_FILE" 2>&1
 log "Extracción de datos finalizada."
+
+log "Copiando output del experimento"
+rsync -ah --progress $OUTPUT_DIR_LOG/* $DEST_DIR >> "$LOG_FILE" 2>&1
+log "Copia finalizada."
 
 # --------------------------------------------------
 # Fin de script

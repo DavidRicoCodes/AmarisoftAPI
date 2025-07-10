@@ -1,3 +1,7 @@
 # Ignorar toda la carpeta output y su contenido
 /OUTPUT/
+/validation_tests/mbps/
+/validation_tests/MBps/
+/validation_tests/MBps_MB_exp/
+/validation_tests/Mbps_MB_exp/
 

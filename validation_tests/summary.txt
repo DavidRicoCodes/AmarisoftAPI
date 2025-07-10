@@ -1,0 +1,686 @@
+Experimento 'e010b71b-0b27-464c-b9dc-8c4aeec286f0': gráficas guardadas para puertos [5201].
+Number of users: 1
+Mean thr user 5201: 10.12 Mbps
+Total thr all users Mean: 10.12 Mbps
+Experimento 'cc6a04e3-09f5-4cce-9d05-ff28b15b98dd': gráficas guardadas para puertos [5201, 5202].
+Number of users: 2
+Mean thr user 5201: 5.06 Mbps
+Mean thr user 5202: 5.04 Mbps
+Total thr all users Mean: 10.10 Mbps
+Experimento 'eac4c609-9625-47a5-a4f1-0aebe9f635c2': gráficas guardadas para puertos [5201, 5202, 5203, 5204].
+Number of users: 4
+Mean thr user 5201: 2.53 Mbps
+Mean thr user 5202: 2.53 Mbps
+Mean thr user 5203: 2.53 Mbps
+Mean thr user 5204: 2.53 Mbps
+Total thr all users Mean: 10.13 Mbps
+Experimento '078bba03-e796-44de-a16d-891a202b3e52': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206].
+Number of users: 6
+Mean thr user 5201: 1.69 Mbps
+Mean thr user 5202: 1.69 Mbps
+Mean thr user 5203: 1.69 Mbps
+Mean thr user 5204: 1.69 Mbps
+Mean thr user 5205: 1.69 Mbps
+Mean thr user 5206: 1.69 Mbps
+Total thr all users Mean: 10.14 Mbps
+Experimento 'e2ce99bd-179f-41ab-abe3-efd36f6a17e1': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206, 5207, 5208].
+Number of users: 8
+Mean thr user 5201: 1.27 Mbps
+Mean thr user 5202: 1.26 Mbps
+Mean thr user 5203: 1.26 Mbps
+Mean thr user 5204: 1.26 Mbps
+Mean thr user 5205: 1.26 Mbps
+Mean thr user 5206: 1.26 Mbps
+Mean thr user 5207: 1.26 Mbps
+Mean thr user 5208: 1.26 Mbps
+Total thr all users Mean: 10.11 Mbps
+Experimento 'cc153bc8-6dfe-4cf3-8317-6af0fa23a6a4': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206, 5207, 5208, 5209, 5210].
+Number of users: 10
+Mean thr user 5201: 1.02 Mbps
+Mean thr user 5202: 1.01 Mbps
+Mean thr user 5203: 1.01 Mbps
+Mean thr user 5204: 1.01 Mbps
+Mean thr user 5205: 1.01 Mbps
+Mean thr user 5206: 1.01 Mbps
+Mean thr user 5207: 1.01 Mbps
+Mean thr user 5208: 1.01 Mbps
+Mean thr user 5209: 1.01 Mbps
+Mean thr user 5210: 1.01 Mbps
+Total thr all users Mean: 10.09 Mbps
+Experimento '4470cefa-388c-411d-afc2-6acb56265158': gráficas guardadas para puertos [5201].
+Number of users: 1
+Mean thr user 5201: 20.23 Mbps
+Total thr all users Mean: 20.23 Mbps
+Experimento '14e5c2fc-1f19-46e0-8e51-870a64e53c6c': gráficas guardadas para puertos [5201, 5202].
+Number of users: 2
+Mean thr user 5201: 10.14 Mbps
+Mean thr user 5202: 10.12 Mbps
+Total thr all users Mean: 20.26 Mbps
+Experimento '273ab258-958d-4632-8a3a-a2c177b74918': gráficas guardadas para puertos [5201, 5202, 5203, 5204].
+Number of users: 4
+Mean thr user 5201: 5.07 Mbps
+Mean thr user 5202: 5.06 Mbps
+Mean thr user 5203: 5.06 Mbps
+Mean thr user 5204: 5.06 Mbps
+Total thr all users Mean: 20.25 Mbps
+Experimento 'fc9da182-a66c-425e-8fb5-e0ec4b90b9ed': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206].
+Number of users: 6
+Mean thr user 5201: 3.36 Mbps
+Mean thr user 5202: 3.33 Mbps
+Mean thr user 5203: 3.33 Mbps
+Mean thr user 5204: 3.34 Mbps
+Mean thr user 5205: 3.34 Mbps
+Mean thr user 5206: 3.35 Mbps
+Total thr all users Mean: 20.05 Mbps
+Experimento '794d4250-a016-48c4-9709-41caef531777': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206, 5207, 5208].
+Number of users: 8
+Mean thr user 5201: 2.53 Mbps
+Mean thr user 5202: 2.52 Mbps
+Mean thr user 5203: 2.52 Mbps
+Mean thr user 5204: 2.52 Mbps
+Mean thr user 5205: 2.52 Mbps
+Mean thr user 5206: 2.52 Mbps
+Mean thr user 5207: 2.52 Mbps
+Mean thr user 5208: 2.51 Mbps
+Total thr all users Mean: 20.14 Mbps
+Experimento '43f7b61c-3189-4fda-abbc-6d7d3e40ce20': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206, 5207, 5208, 5209, 5210].
+Number of users: 10
+Mean thr user 5201: 2.03 Mbps
+Mean thr user 5202: 2.02 Mbps
+Mean thr user 5203: 2.02 Mbps
+Mean thr user 5204: 2.02 Mbps
+Mean thr user 5205: 2.02 Mbps
+Mean thr user 5206: 2.02 Mbps
+Mean thr user 5207: 2.02 Mbps
+Mean thr user 5208: 2.02 Mbps
+Mean thr user 5209: 2.02 Mbps
+Mean thr user 5210: 2.02 Mbps
+Total thr all users Mean: 20.19 Mbps
+Experimento 'c638c8c5-ee32-49df-90d0-2a49b8ab5951': gráficas guardadas para puertos [5201].
+Number of users: 1
+Mean thr user 5201: 30.36 Mbps
+Total thr all users Mean: 30.36 Mbps
+Experimento 'f224bf64-2134-4250-9e3e-23c41115ead0': gráficas guardadas para puertos [5201, 5202].
+Number of users: 2
+Mean thr user 5201: 15.14 Mbps
+Mean thr user 5202: 15.14 Mbps
+Total thr all users Mean: 30.28 Mbps
+Experimento '71ed58ee-52f6-4385-8396-a7cfd5cda581': gráficas guardadas para puertos [5201, 5202, 5203, 5204].
+Number of users: 4
+Mean thr user 5201: 7.59 Mbps
+Mean thr user 5202: 7.56 Mbps
+Mean thr user 5203: 7.55 Mbps
+Mean thr user 5204: 7.55 Mbps
+Total thr all users Mean: 30.26 Mbps
+Experimento '2268f4f9-e216-497b-87cc-3822ec94cda2': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206].
+Number of users: 6
+Mean thr user 5201: 5.07 Mbps
+Mean thr user 5202: 5.05 Mbps
+Mean thr user 5203: 5.05 Mbps
+Mean thr user 5204: 5.05 Mbps
+Mean thr user 5205: 5.05 Mbps
+Mean thr user 5206: 5.05 Mbps
+Total thr all users Mean: 30.31 Mbps
+Experimento '7ee49ace-9db3-45f6-967e-00d8573105ad': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206, 5207, 5208].
+Number of users: 8
+Mean thr user 5201: 3.79 Mbps
+Mean thr user 5202: 3.78 Mbps
+Mean thr user 5203: 3.78 Mbps
+Mean thr user 5204: 3.77 Mbps
+Mean thr user 5205: 3.77 Mbps
+Mean thr user 5206: 3.77 Mbps
+Mean thr user 5207: 3.77 Mbps
+Mean thr user 5208: 3.77 Mbps
+Total thr all users Mean: 30.21 Mbps
+Experimento '20b2b3b5-2856-4894-aa01-5d9fb4cf0216': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206, 5207, 5208, 5209, 5210].
+Number of users: 10
+Mean thr user 5201: 3.04 Mbps
+Mean thr user 5202: 3.04 Mbps
+Mean thr user 5203: 3.04 Mbps
+Mean thr user 5204: 3.04 Mbps
+Mean thr user 5205: 3.04 Mbps
+Mean thr user 5206: 3.04 Mbps
+Mean thr user 5207: 3.04 Mbps
+Mean thr user 5208: 3.04 Mbps
+Mean thr user 5209: 3.04 Mbps
+Mean thr user 5210: 3.04 Mbps
+Total thr all users Mean: 30.37 Mbps
+Experimento 'abf60f50-a2d0-4236-aaa6-780a3339d946': gráficas guardadas para puertos [5201].
+Number of users: 1
+Mean thr user 5201: 40.55 Mbps
+Total thr all users Mean: 40.55 Mbps
+Experimento '6e3d05e5-22ac-4d9b-8568-2b2874eef29a': gráficas guardadas para puertos [5201, 5202].
+Number of users: 2
+Mean thr user 5201: 20.24 Mbps
+Mean thr user 5202: 20.24 Mbps
+Total thr all users Mean: 40.48 Mbps
+Experimento '98b9810b-2e61-43f7-9ad7-ad6e46b42f5b': gráficas guardadas para puertos [5201, 5202, 5203, 5204].
+Number of users: 4
+Mean thr user 5201: 10.13 Mbps
+Mean thr user 5202: 10.09 Mbps
+Mean thr user 5203: 10.08 Mbps
+Mean thr user 5204: 10.08 Mbps
+Total thr all users Mean: 40.38 Mbps
+Experimento '822b5b23-8906-4a0f-a00b-f245e976bdf8': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206].
+Number of users: 6
+Mean thr user 5201: 6.76 Mbps
+Mean thr user 5202: 6.74 Mbps
+Mean thr user 5203: 6.74 Mbps
+Mean thr user 5204: 6.74 Mbps
+Mean thr user 5205: 6.74 Mbps
+Mean thr user 5206: 6.74 Mbps
+Total thr all users Mean: 40.45 Mbps
+Experimento 'f5ab7ae7-1374-4708-88e7-e87144b0829e': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206, 5207, 5208].
+Number of users: 8
+Mean thr user 5201: 5.07 Mbps
+Mean thr user 5202: 5.05 Mbps
+Mean thr user 5203: 5.05 Mbps
+Mean thr user 5204: 5.05 Mbps
+Mean thr user 5205: 5.05 Mbps
+Mean thr user 5206: 5.05 Mbps
+Mean thr user 5207: 5.05 Mbps
+Mean thr user 5208: 5.05 Mbps
+Total thr all users Mean: 40.43 Mbps
+Experimento 'fa38143b-828b-405e-b767-c3a7e3536e23': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206, 5207, 5208, 5209, 5210].
+Number of users: 10
+Mean thr user 5201: 4.05 Mbps
+Mean thr user 5202: 4.03 Mbps
+Mean thr user 5203: 4.03 Mbps
+Mean thr user 5204: 4.03 Mbps
+Mean thr user 5205: 4.03 Mbps
+Mean thr user 5206: 4.03 Mbps
+Mean thr user 5207: 4.03 Mbps
+Mean thr user 5208: 4.02 Mbps
+Mean thr user 5209: 4.02 Mbps
+Mean thr user 5210: 4.02 Mbps
+Total thr all users Mean: 40.29 Mbps
+Experimento '6d491f53-9b84-4b65-881a-8be4cbe55c18': gráficas guardadas para puertos [5201].
+Number of users: 1
+Mean thr user 5201: 50.68 Mbps
+Total thr all users Mean: 50.68 Mbps
+Experimento 'c388b341-bdbd-4a44-86ec-3597273d43ed': gráficas guardadas para puertos [5201, 5202].
+Number of users: 2
+Mean thr user 5201: 25.33 Mbps
+Mean thr user 5202: 25.28 Mbps
+Total thr all users Mean: 50.62 Mbps
+Experimento 'fa74af72-d608-43f0-ba63-483b60e92b62': gráficas guardadas para puertos [5201, 5202, 5203, 5204].
+Number of users: 4
+Mean thr user 5201: 12.66 Mbps
+Mean thr user 5202: 12.60 Mbps
+Mean thr user 5203: 12.60 Mbps
+Mean thr user 5204: 12.59 Mbps
+Total thr all users Mean: 50.45 Mbps
+Experimento '3bf3aba9-757d-4043-9c38-28bafe2094c9': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206].
+Number of users: 6
+Mean thr user 5201: 8.40 Mbps
+Mean thr user 5202: 8.38 Mbps
+Mean thr user 5203: 8.38 Mbps
+Mean thr user 5204: 8.38 Mbps
+Mean thr user 5205: 8.38 Mbps
+Mean thr user 5206: 8.38 Mbps
+Total thr all users Mean: 50.29 Mbps
+Experimento '3635a224-8221-4225-8b49-5b522079211f': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206, 5207, 5208].
+Number of users: 8
+Mean thr user 5201: 6.33 Mbps
+Mean thr user 5202: 6.32 Mbps
+Mean thr user 5203: 6.32 Mbps
+Mean thr user 5204: 6.32 Mbps
+Mean thr user 5205: 6.32 Mbps
+Mean thr user 5206: 6.32 Mbps
+Mean thr user 5207: 6.32 Mbps
+Mean thr user 5208: 6.31 Mbps
+Total thr all users Mean: 50.57 Mbps
+Experimento 'e569a5ea-0973-4462-8e80-1f0335df0cc7': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206, 5207, 5208, 5209, 5210].
+Number of users: 10
+Mean thr user 5201: 5.06 Mbps
+Mean thr user 5202: 5.03 Mbps
+Mean thr user 5203: 5.03 Mbps
+Mean thr user 5204: 5.03 Mbps
+Mean thr user 5205: 5.03 Mbps
+Mean thr user 5206: 5.03 Mbps
+Mean thr user 5207: 5.03 Mbps
+Mean thr user 5208: 5.03 Mbps
+Mean thr user 5209: 5.03 Mbps
+Mean thr user 5210: 5.02 Mbps
+Total thr all users Mean: 50.33 Mbps
+Experimento 'a971f018-40f1-4a88-892c-ec8b260649e1': gráficas guardadas para puertos [5201].
+Number of users: 1
+Mean thr user 5201: 60.79 Mbps
+Total thr all users Mean: 60.79 Mbps
+Experimento '5f337f3e-020e-4a13-873a-2d8808ea8cf1': gráficas guardadas para puertos [5201, 5202].
+Number of users: 2
+Mean thr user 5201: 30.40 Mbps
+Mean thr user 5202: 30.29 Mbps
+Total thr all users Mean: 60.69 Mbps
+Experimento 'e5aea945-8537-405a-be6e-9111f5c9cbc2': gráficas guardadas para puertos [5201, 5202, 5203, 5204].
+Number of users: 4
+Mean thr user 5201: 15.20 Mbps
+Mean thr user 5202: 15.18 Mbps
+Mean thr user 5203: 15.17 Mbps
+Mean thr user 5204: 15.17 Mbps
+Total thr all users Mean: 60.72 Mbps
+Experimento 'c515d942-3d86-4809-8ed9-e7bea0a6134d': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206].
+Number of users: 6
+Mean thr user 5201: 10.13 Mbps
+Mean thr user 5202: 10.10 Mbps
+Mean thr user 5203: 10.10 Mbps
+Mean thr user 5204: 10.10 Mbps
+Mean thr user 5205: 10.10 Mbps
+Mean thr user 5206: 10.09 Mbps
+Total thr all users Mean: 60.61 Mbps
+Experimento 'e3277488-527c-4f54-be15-39ecb6cbd7f5': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206, 5207, 5208].
+Number of users: 8
+Mean thr user 5201: 7.60 Mbps
+Mean thr user 5202: 7.58 Mbps
+Mean thr user 5203: 7.58 Mbps
+Mean thr user 5204: 7.58 Mbps
+Mean thr user 5205: 7.58 Mbps
+Mean thr user 5206: 7.58 Mbps
+Mean thr user 5207: 7.58 Mbps
+Mean thr user 5208: 7.58 Mbps
+Total thr all users Mean: 60.67 Mbps
+Experimento '255048ca-22f9-4721-ad34-535bd9a8cd78': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206, 5207, 5208, 5209, 5210].
+Number of users: 10
+Mean thr user 5201: 6.08 Mbps
+Mean thr user 5202: 6.07 Mbps
+Mean thr user 5203: 6.07 Mbps
+Mean thr user 5204: 6.07 Mbps
+Mean thr user 5205: 6.06 Mbps
+Mean thr user 5206: 6.06 Mbps
+Mean thr user 5207: 6.06 Mbps
+Mean thr user 5208: 6.06 Mbps
+Mean thr user 5209: 6.06 Mbps
+Mean thr user 5210: 6.06 Mbps
+Total thr all users Mean: 60.65 Mbps
+Experimento '36ecf65e-0c7a-4b35-a08a-76532a88a05b': gráficas guardadas para puertos [5201].
+Number of users: 1
+Mean thr user 5201: 70.00 Mbps
+Total thr all users Mean: 70.00 Mbps
+Experimento '403d429b-cd41-4a7a-a9e9-f37e7b32bb0b': gráficas guardadas para puertos [5201, 5202].
+Number of users: 2
+Mean thr user 5201: 35.45 Mbps
+Mean thr user 5202: 35.42 Mbps
+Total thr all users Mean: 70.87 Mbps
+Experimento 'eeeb3937-fda1-4228-8deb-be5dff43fa4f': gráficas guardadas para puertos [5201, 5202, 5203, 5204].
+Number of users: 4
+Mean thr user 5201: 17.73 Mbps
+Mean thr user 5202: 17.65 Mbps
+Mean thr user 5203: 17.64 Mbps
+Mean thr user 5204: 17.64 Mbps
+Total thr all users Mean: 70.65 Mbps
+Experimento 'a058918e-caaf-4ae6-a5d7-7eeacfb99125': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206].
+Number of users: 6
+Mean thr user 5201: 11.81 Mbps
+Mean thr user 5202: 11.80 Mbps
+Mean thr user 5203: 11.79 Mbps
+Mean thr user 5204: 11.79 Mbps
+Mean thr user 5205: 11.80 Mbps
+Mean thr user 5206: 11.80 Mbps
+Total thr all users Mean: 70.80 Mbps
+Experimento 'cab2ee7e-d2e4-4d9d-8d55-015528c949d0': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206, 5207, 5208].
+Number of users: 8
+Mean thr user 5201: 8.82 Mbps
+Mean thr user 5202: 8.82 Mbps
+Mean thr user 5203: 8.82 Mbps
+Mean thr user 5204: 8.81 Mbps
+Mean thr user 5205: 8.81 Mbps
+Mean thr user 5206: 8.81 Mbps
+Mean thr user 5207: 8.81 Mbps
+Mean thr user 5208: 8.80 Mbps
+Total thr all users Mean: 70.51 Mbps
+Experimento '494bee82-2490-4eec-b0a2-06f870795bc6': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206, 5207, 5208, 5209, 5210].
+Number of users: 10
+Mean thr user 5201: 7.09 Mbps
+Mean thr user 5202: 7.07 Mbps
+Mean thr user 5203: 7.07 Mbps
+Mean thr user 5204: 7.07 Mbps
+Mean thr user 5205: 7.07 Mbps
+Mean thr user 5206: 7.07 Mbps
+Mean thr user 5207: 7.07 Mbps
+Mean thr user 5208: 7.06 Mbps
+Mean thr user 5209: 7.06 Mbps
+Mean thr user 5210: 7.06 Mbps
+Total thr all users Mean: 70.69 Mbps
+Experimento '51944b79-42a2-4852-92a1-6efc3bad8aca': gráficas guardadas para puertos [5201].
+Number of users: 1
+Mean thr user 5201: 80.12 Mbps
+Total thr all users Mean: 80.12 Mbps
+Experimento 'a788f147-97cb-4ffb-99b7-6fa9b39ca44f': gráficas guardadas para puertos [5201, 5202].
+Number of users: 2
+Mean thr user 5201: 40.53 Mbps
+Mean thr user 5202: 40.39 Mbps
+Total thr all users Mean: 80.93 Mbps
+Experimento '05c7a05b-a18b-44b6-9d2b-2d96803bc84e': gráficas guardadas para puertos [5201, 5202, 5203, 5204].
+Number of users: 4
+Mean thr user 5201: 20.24 Mbps
+Mean thr user 5202: 20.15 Mbps
+Mean thr user 5203: 20.14 Mbps
+Mean thr user 5204: 20.13 Mbps
+Total thr all users Mean: 80.65 Mbps
+Experimento 'abbacac5-8a83-42a0-9b98-be8b08cb5a2d': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206].
+Number of users: 6
+Mean thr user 5201: 13.48 Mbps
+Mean thr user 5202: 13.42 Mbps
+Mean thr user 5203: 13.42 Mbps
+Mean thr user 5204: 13.41 Mbps
+Mean thr user 5205: 13.41 Mbps
+Mean thr user 5206: 13.41 Mbps
+Total thr all users Mean: 80.57 Mbps
+Experimento '27d0dcec-b53b-456b-ba2b-f54ffdf4d0e8': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206, 5207, 5208].
+Number of users: 8
+Mean thr user 5201: 10.07 Mbps
+Mean thr user 5202: 10.07 Mbps
+Mean thr user 5203: 10.08 Mbps
+Mean thr user 5204: 10.08 Mbps
+Mean thr user 5205: 10.07 Mbps
+Mean thr user 5206: 10.07 Mbps
+Mean thr user 5207: 10.07 Mbps
+Mean thr user 5208: 10.06 Mbps
+Total thr all users Mean: 80.55 Mbps
+Experimento '62fe84ab-dfea-4c4b-ad57-0cc21678171f': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206, 5207, 5208, 5209, 5210].
+Number of users: 10
+Mean thr user 5201: 8.10 Mbps
+Mean thr user 5202: 8.06 Mbps
+Mean thr user 5203: 8.06 Mbps
+Mean thr user 5204: 8.06 Mbps
+Mean thr user 5205: 8.06 Mbps
+Mean thr user 5206: 8.05 Mbps
+Mean thr user 5207: 8.05 Mbps
+Mean thr user 5208: 8.05 Mbps
+Mean thr user 5209: 8.05 Mbps
+Mean thr user 5210: 8.04 Mbps
+Total thr all users Mean: 80.58 Mbps
+Experimento 'c2030d43-c0b2-4bfb-9cfb-8905f6f622d6': gráficas guardadas para puertos [5201].
+Number of users: 1
+Mean thr user 5201: 89.82 Mbps
+Total thr all users Mean: 89.82 Mbps
+Experimento 'd1d27cda-35ef-48bd-b7f1-539bb6e64b02': gráficas guardadas para puertos [5201, 5202].
+Number of users: 2
+Mean thr user 5201: 45.45 Mbps
+Mean thr user 5202: 45.35 Mbps
+Total thr all users Mean: 90.79 Mbps
+Experimento 'a1396406-a7ae-468e-9eb7-c5e41637564f': gráficas guardadas para puertos [5201, 5202, 5203, 5204].
+Number of users: 4
+Mean thr user 5201: 22.76 Mbps
+Mean thr user 5202: 22.72 Mbps
+Mean thr user 5203: 22.72 Mbps
+Mean thr user 5204: 22.72 Mbps
+Total thr all users Mean: 90.91 Mbps
+Experimento '2b89afe8-2cf5-4601-a2e2-007e3b7447fe': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206].
+Number of users: 6
+Mean thr user 5201: 14.99 Mbps
+Mean thr user 5202: 14.96 Mbps
+Mean thr user 5203: 14.95 Mbps
+Mean thr user 5204: 14.95 Mbps
+Mean thr user 5205: 14.94 Mbps
+Mean thr user 5206: 14.94 Mbps
+Total thr all users Mean: 89.73 Mbps
+Experimento 'f92638b5-2be4-4e41-b010-45e0229e828b': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206, 5207, 5208].
+Number of users: 8
+Mean thr user 5201: 11.18 Mbps
+Mean thr user 5202: 11.13 Mbps
+Mean thr user 5203: 11.12 Mbps
+Mean thr user 5204: 11.11 Mbps
+Mean thr user 5205: 11.11 Mbps
+Mean thr user 5206: 11.10 Mbps
+Mean thr user 5207: 11.09 Mbps
+Mean thr user 5208: 11.08 Mbps
+Total thr all users Mean: 88.92 Mbps
+Experimento 'bc929ced-e63d-48bd-9606-aada2424d483': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206, 5207, 5208, 5209, 5210].
+Number of users: 10
+Mean thr user 5201: 9.08 Mbps
+Mean thr user 5202: 9.07 Mbps
+Mean thr user 5203: 9.07 Mbps
+Mean thr user 5204: 9.06 Mbps
+Mean thr user 5205: 9.06 Mbps
+Mean thr user 5206: 9.06 Mbps
+Mean thr user 5207: 9.06 Mbps
+Mean thr user 5208: 9.05 Mbps
+Mean thr user 5209: 9.05 Mbps
+Mean thr user 5210: 9.04 Mbps
+Total thr all users Mean: 90.60 Mbps
+Experimento '1896c2cd-3658-4a97-9c7d-320423670554': gráficas guardadas para puertos [5201].
+Number of users: 1
+Mean thr user 5201: 98.95 Mbps
+Total thr all users Mean: 98.95 Mbps
+Experimento '837dd07f-1655-4fd5-ba5d-5e23422fa7f4': gráficas guardadas para puertos [5201, 5202].
+Number of users: 2
+Mean thr user 5201: 49.94 Mbps
+Mean thr user 5202: 49.85 Mbps
+Total thr all users Mean: 99.79 Mbps
+Experimento '81168714-6554-4b06-9638-cc1c48d85f4b': gráficas guardadas para puertos [5201, 5202, 5203, 5204].
+Number of users: 4
+Mean thr user 5201: 25.32 Mbps
+Mean thr user 5202: 25.22 Mbps
+Mean thr user 5203: 25.21 Mbps
+Mean thr user 5204: 25.21 Mbps
+Total thr all users Mean: 100.97 Mbps
+Experimento 'f9c21318-5a88-42e6-83a1-1b4a7a333c14': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206].
+Number of users: 6
+Mean thr user 5201: 16.69 Mbps
+Mean thr user 5202: 16.62 Mbps
+Mean thr user 5203: 16.61 Mbps
+Mean thr user 5204: 16.61 Mbps
+Mean thr user 5205: 16.60 Mbps
+Mean thr user 5206: 16.59 Mbps
+Total thr all users Mean: 99.72 Mbps
+Experimento '4f2ccc7d-063a-4980-b7f6-bb5d53afba42': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206, 5207, 5208].
+Number of users: 8
+Mean thr user 5201: 12.38 Mbps
+Mean thr user 5202: 12.36 Mbps
+Mean thr user 5203: 12.35 Mbps
+Mean thr user 5204: 12.35 Mbps
+Mean thr user 5205: 12.34 Mbps
+Mean thr user 5206: 12.33 Mbps
+Mean thr user 5207: 12.33 Mbps
+Mean thr user 5208: 12.31 Mbps
+Total thr all users Mean: 98.76 Mbps
+Experimento 'ad201ddb-8003-47d9-b2bb-3f9f14cc4659': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206, 5207, 5208, 5209, 5210].
+Number of users: 10
+Mean thr user 5201: 10.00 Mbps
+Mean thr user 5202: 9.98 Mbps
+Mean thr user 5203: 9.97 Mbps
+Mean thr user 5204: 9.97 Mbps
+Mean thr user 5205: 9.96 Mbps
+Mean thr user 5206: 9.96 Mbps
+Mean thr user 5207: 9.95 Mbps
+Mean thr user 5208: 9.95 Mbps
+Mean thr user 5209: 9.94 Mbps
+Mean thr user 5210: 9.94 Mbps
+Total thr all users Mean: 99.63 Mbps
+Experimento '3097fcd2-6a59-4cb6-8bdc-1c25337e726a': gráficas guardadas para puertos [5201].
+Number of users: 1
+Mean thr user 5201: 110.10 Mbps
+Total thr all users Mean: 110.10 Mbps
+Experimento '7aa1d2c8-5e8e-41dd-bf2b-683ed09915d1': gráficas guardadas para puertos [5201, 5202].
+Number of users: 2
+Mean thr user 5201: 54.97 Mbps
+Mean thr user 5202: 54.84 Mbps
+Total thr all users Mean: 109.80 Mbps
+Experimento '47ab59ef-3b2f-48c8-a3c6-71dca31508d8': gráficas guardadas para puertos [5201, 5202, 5203, 5204].
+Number of users: 4
+Mean thr user 5201: 27.30 Mbps
+Mean thr user 5202: 27.20 Mbps
+Mean thr user 5203: 27.17 Mbps
+Mean thr user 5204: 27.16 Mbps
+Total thr all users Mean: 108.82 Mbps
+Experimento 'f376ae73-001e-4390-b377-e14ac8be2f04': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206].
+Number of users: 6
+Mean thr user 5201: 18.20 Mbps
+Mean thr user 5202: 18.13 Mbps
+Mean thr user 5203: 18.12 Mbps
+Mean thr user 5204: 18.10 Mbps
+Mean thr user 5205: 18.10 Mbps
+Mean thr user 5206: 18.09 Mbps
+Total thr all users Mean: 108.73 Mbps
+Experimento 'adf7972c-713c-4711-ad42-e6994b8b053f': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206, 5207, 5208].
+Number of users: 8
+Mean thr user 5201: 13.75 Mbps
+Mean thr user 5202: 13.71 Mbps
+Mean thr user 5203: 13.71 Mbps
+Mean thr user 5204: 13.70 Mbps
+Mean thr user 5205: 13.70 Mbps
+Mean thr user 5206: 13.69 Mbps
+Mean thr user 5207: 13.69 Mbps
+Mean thr user 5208: 13.67 Mbps
+Total thr all users Mean: 109.62 Mbps
+Experimento '1462835e-3c0b-4403-88ab-b2f23d3d8508': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206, 5207, 5208, 5209, 5210].
+Number of users: 10
+Mean thr user 5201: 11.01 Mbps
+Mean thr user 5202: 10.97 Mbps
+Mean thr user 5203: 10.97 Mbps
+Mean thr user 5204: 10.96 Mbps
+Mean thr user 5205: 10.95 Mbps
+Mean thr user 5206: 10.95 Mbps
+Mean thr user 5207: 10.95 Mbps
+Mean thr user 5208: 10.94 Mbps
+Mean thr user 5209: 10.93 Mbps
+Mean thr user 5210: 10.93 Mbps
+Total thr all users Mean: 109.57 Mbps
+Experimento '8f8cb053-bea4-4ff2-ba52-0e0fb521c424': gráficas guardadas para puertos [5201].
+Number of users: 1
+Mean thr user 5201: 119.95 Mbps
+Total thr all users Mean: 119.95 Mbps
+Experimento 'f73d6529-da49-408d-897a-61d130381aed': gráficas guardadas para puertos [5201, 5202].
+Number of users: 2
+Mean thr user 5201: 59.90 Mbps
+Mean thr user 5202: 59.83 Mbps
+Total thr all users Mean: 119.73 Mbps
+Experimento '7da1425a-2b00-4d2f-9673-7798592a0eb1': gráficas guardadas para puertos [5201, 5202, 5203, 5204].
+Number of users: 4
+Mean thr user 5201: 30.05 Mbps
+Mean thr user 5202: 29.92 Mbps
+Mean thr user 5203: 29.90 Mbps
+Mean thr user 5204: 29.89 Mbps
+Total thr all users Mean: 119.75 Mbps
+Experimento 'ffc66b77-0e56-4603-b949-e05ef32b33e2': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206].
+Number of users: 6
+Mean thr user 5201: 19.96 Mbps
+Mean thr user 5202: 19.95 Mbps
+Mean thr user 5203: 19.93 Mbps
+Mean thr user 5204: 19.93 Mbps
+Mean thr user 5205: 19.92 Mbps
+Mean thr user 5206: 19.91 Mbps
+Total thr all users Mean: 119.60 Mbps
+Experimento '84afc248-61f9-4e19-9bec-7fc0ad2bb2fe': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206, 5207, 5208].
+Number of users: 8
+Mean thr user 5201: 14.88 Mbps
+Mean thr user 5202: 14.83 Mbps
+Mean thr user 5203: 14.82 Mbps
+Mean thr user 5204: 14.82 Mbps
+Mean thr user 5205: 14.81 Mbps
+Mean thr user 5206: 14.80 Mbps
+Mean thr user 5207: 14.78 Mbps
+Mean thr user 5208: 14.78 Mbps
+Total thr all users Mean: 118.52 Mbps
+Experimento '945d564e-0b34-4c82-9ba4-a3b82b813928': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206, 5207, 5208, 5209, 5210].
+Number of users: 10
+Mean thr user 5201: 11.92 Mbps
+Mean thr user 5202: 11.87 Mbps
+Mean thr user 5203: 11.86 Mbps
+Mean thr user 5204: 11.85 Mbps
+Mean thr user 5205: 11.84 Mbps
+Mean thr user 5206: 11.84 Mbps
+Mean thr user 5207: 11.83 Mbps
+Mean thr user 5208: 11.82 Mbps
+Mean thr user 5209: 11.81 Mbps
+Mean thr user 5210: 11.81 Mbps
+Total thr all users Mean: 118.46 Mbps
+Experimento '7333cfd1-abff-49c7-80fa-1db1e6a746d3': gráficas guardadas para puertos [5201].
+Number of users: 1
+Mean thr user 5201: 129.75 Mbps
+Total thr all users Mean: 129.75 Mbps
+Experimento '91db1ffd-705c-4773-86da-661429262726': gráficas guardadas para puertos [5201, 5202].
+Number of users: 2
+Mean thr user 5201: 64.91 Mbps
+Mean thr user 5202: 64.81 Mbps
+Total thr all users Mean: 129.71 Mbps
+Experimento 'a1be9b2d-fcea-4499-8010-6d740b768c1c': gráficas guardadas para puertos [5201, 5202, 5203, 5204].
+Number of users: 4
+Mean thr user 5201: 32.26 Mbps
+Mean thr user 5202: 32.14 Mbps
+Mean thr user 5203: 32.11 Mbps
+Mean thr user 5204: 32.10 Mbps
+Total thr all users Mean: 128.61 Mbps
+Experimento '1ff40057-b6a7-4a8c-ad4b-7e0c316fb143': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206].
+Number of users: 6
+Mean thr user 5201: 21.44 Mbps
+Mean thr user 5202: 21.42 Mbps
+Mean thr user 5203: 21.41 Mbps
+Mean thr user 5204: 21.40 Mbps
+Mean thr user 5205: 21.39 Mbps
+Mean thr user 5206: 21.37 Mbps
+Total thr all users Mean: 128.44 Mbps
+Experimento '823b88d1-af3a-486b-a366-6375a8aa51f2': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206, 5207, 5208].
+Number of users: 8
+Mean thr user 5201: 16.12 Mbps
+Mean thr user 5202: 16.07 Mbps
+Mean thr user 5203: 16.06 Mbps
+Mean thr user 5204: 16.05 Mbps
+Mean thr user 5205: 16.04 Mbps
+Mean thr user 5206: 16.03 Mbps
+Mean thr user 5207: 16.02 Mbps
+Mean thr user 5208: 16.02 Mbps
+Total thr all users Mean: 128.42 Mbps
+Experimento '9e13e7d1-d74f-44ea-9f30-7f3d9d1563f8': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206, 5207, 5208, 5209, 5210].
+Number of users: 10
+Mean thr user 5201: 12.99 Mbps
+Mean thr user 5202: 12.97 Mbps
+Mean thr user 5203: 12.96 Mbps
+Mean thr user 5204: 12.95 Mbps
+Mean thr user 5205: 12.95 Mbps
+Mean thr user 5206: 12.94 Mbps
+Mean thr user 5207: 12.94 Mbps
+Mean thr user 5208: 12.93 Mbps
+Mean thr user 5209: 12.92 Mbps
+Mean thr user 5210: 12.91 Mbps
+Total thr all users Mean: 129.46 Mbps
+Experimento '0af5cd51-73dc-4544-946b-bc6727fab729': gráficas guardadas para puertos [5201].
+Number of users: 1
+Mean thr user 5201: 140.26 Mbps
+Total thr all users Mean: 140.26 Mbps
+Experimento '4aca5411-a620-490f-97a3-08f211dc48a2': gráficas guardadas para puertos [5201, 5202].
+Number of users: 2
+Mean thr user 5201: 70.05 Mbps
+Mean thr user 5202: 69.79 Mbps
+Total thr all users Mean: 139.84 Mbps
+Experimento '7c987e2f-8ba9-4e36-bd1a-e220bdfdf1bc': gráficas guardadas para puertos [5201, 5202, 5203, 5204].
+Number of users: 4
+Mean thr user 5201: 34.68 Mbps
+Mean thr user 5202: 34.61 Mbps
+Mean thr user 5203: 34.57 Mbps
+Mean thr user 5204: 34.57 Mbps
+Total thr all users Mean: 138.43 Mbps
+Experimento '7c28f207-754b-45b3-9094-864d95a19544': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206].
+Number of users: 6
+Mean thr user 5201: 23.19 Mbps
+Mean thr user 5202: 23.07 Mbps
+Mean thr user 5203: 23.06 Mbps
+Mean thr user 5204: 23.05 Mbps
+Mean thr user 5205: 23.03 Mbps
+Mean thr user 5206: 23.02 Mbps
+Total thr all users Mean: 138.41 Mbps
+Experimento 'bbc4a238-eed4-4bda-bcd6-8d04a02f06eb': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206, 5207, 5208].
+Number of users: 8
+Mean thr user 5201: 17.37 Mbps
+Mean thr user 5202: 17.31 Mbps
+Mean thr user 5203: 17.30 Mbps
+Mean thr user 5204: 17.29 Mbps
+Mean thr user 5205: 17.27 Mbps
+Mean thr user 5206: 17.26 Mbps
+Mean thr user 5207: 17.25 Mbps
+Mean thr user 5208: 17.25 Mbps
+Total thr all users Mean: 138.30 Mbps
+Experimento 'dbad87bd-ffd3-4ef5-8d8d-4e494785433b': gráficas guardadas para puertos [5201, 5202, 5203, 5204, 5205, 5206, 5207, 5208, 5209, 5210].
+Number of users: 10
+Mean thr user 5201: 14.00 Mbps
+Mean thr user 5202: 13.96 Mbps
+Mean thr user 5203: 13.96 Mbps
+Mean thr user 5204: 13.95 Mbps
+Mean thr user 5205: 13.94 Mbps
+Mean thr user 5206: 13.94 Mbps
+Mean thr user 5207: 13.93 Mbps
+Mean thr user 5208: 13.92 Mbps
+Mean thr user 5209: 13.91 Mbps
+Mean thr user 5210: 13.91 Mbps
+Total thr all users Mean: 139.44 Mbps
